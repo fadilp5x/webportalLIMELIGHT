@@ -1,0 +1,11 @@
+{
+  "name": "limelight-admin",
+  "version": "1.0.0",
+  "description": "Admin panel for The Limelight",
+  "scripts": {
+    "deploy": "wrangler pages deploy ."
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.583.0"
+  }
+}
